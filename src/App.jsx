@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Gallery from "./components/Gallery";
 
-// Fetch tours from https://course-api.com/react-tours-project using useEffect
+// Fetch tours from local tours.json using useEffect
 // Store in state: tours, loading, error
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
   const fetchTours = async () => {
     setLoading(true);
     try {
-      const response = await fetch("https://course-api.com/react-tours-project");
+      const response = await fetch("./tours.json"); // Notice the "./"!
       if (!response.ok) {
         throw new Error("Failed to fetch tours");
       }
@@ -28,10 +28,6 @@ function App() {
   useEffect(() => {
     fetchTours();
   }, []);
-
-  // If loading is true, display "Loading..."
-  // If error, display an error message
-  // Else, render Gallery with tour data
 
   if (loading) {
     return (
@@ -50,7 +46,6 @@ function App() {
   }
 
   if (tours.length === 0) {
-    // If no tours are left, show a "Refresh" button to refetch the data
     return (
       <main className="refresh">
         <h2>No Tours Left</h2>
