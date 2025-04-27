@@ -3,35 +3,35 @@
     "id": "rec6d6T3q5EBIdCfD",
     "name": "Best of Paris in 7 Days Tour",
     "info": "Paris is synonymous with the finest things that culture can offer — in art, fashion, food, and literature.",
-    "image": "/images/paris.jpg",
+    "image": "/images/4A333FC9-6D82-4C0D-859D-02D8D0D741AF.jpeg",
     "price": "1,995"
   },
   {
     "id": "recIwxrvU9HfJR3B4",
     "name": "Best of Ireland in 14 Days Tour",
-    "info": "Ireland’s must-see historical sites, charming towns, music-filled pubs, and seaside getaways — including Kinsale, Dingle, and the Cliffs of Moher.",
-    "image": "/images/ireland.jpg",
+    "info": "Irelands must-see historical sites, charming towns, music-filled pubs, and seaside getaways — including Kinsale, Dingle, and the Cliffs of Moher.",
+    "image": "/images/4A0674AB-20D0-4F22-AACF-C959C6AE4D76.jpeg",
     "price": "3,895"
   },
   {
     "id": "recJLWcHScdUtI3ny",
     "name": "Best of Salzburg & Vienna in 8 Days Tour",
     "info": "Classical music, towering castles, and fresh Austrian pastries await in Salzburg and Vienna.",
-    "image": "/images/austria.jpg",
+    "image": "/images/B1E53F75-3217-4390-BEC9-C69590F54087.jpeg",
     "price": "2,695"
   },
   {
     "id": "recK2AOoVhIHPLUwn",
     "name": "Best of Rome in 7 Days Tour",
     "info": "Experience ancient history, Roman ruins, and unforgettable cuisine in the heart of Italy.",
-    "image": "/images/rome.jpg",
+    "image": "/images/D7BF754F-1E1D-4EBD-9E19-321E5F4D61F4.jpeg",
     "price": "2,095"
   },
   {
     "id": "receAEzz86KzW2gvH",
     "name": "Best of Poland in 10 Days Tour",
     "info": "The colorful city of Gdańsk, the unbreakable spirit of Warsaw, and the charm of mountain villages — all in 10 days!",
-    "image": "/images/poland.jpg",
+    "image": "/images/A09BCA78-0D1A-4DEB-AE29-26F3EE02453C.jpeg",
     "price": "2,595"
   }
 ]
